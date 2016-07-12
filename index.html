@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="jquery.flippo.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery.flippo.css">
+</head>
+<body>
+	<h1 style='text-align:center;'>My First Heading</h1>
+	<div style='float:left;width:50%;'>
+		<p>
+			The Premier League is an English professional league for men's association football clubs. At the top of the English football league system, it is the country's primary football competition. Contested by 20 clubs, it operates on a system of promotion and relegation with the Football League. Welsh clubs that compete in the English football league system can also qualify.
+		</p>
+		<a href="#">je suis shoaib</a>
+		<img src="http://e0.365dm.com/15/08/768x432/europa-league-trophy-uefa-football_3332895.jpg?20150804112239" alt="Mountain View" style="width:304px;height:228px;">
+	</div>
+	<div style='float:right;width:50%'>
+		<p>
+			The FIFA World Cup, often simply called the World Cup, is an international association football competition contested by the senior men's national teams of the members of Fédération Internationale de Football Association (FIFA), the sport's global governing body. The championship has been awarded every four years since the inaugural tournament in 1930, except in 1942 and 1946 when it was not held because of the Second World War. The current champion is Germany, which won its fourth title at the 2014 tournament in Brazil.
+		</p>
+		<a href="#">je ne sui pas shoaib</a>
+		<img src="http://img.fifa.com/mm/photo/tournament/competition/02/23/87/72/2238772_big-lnd.jpg" alt="Mountain View" style="width:304px;height:228px;">
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div style="margin-left: 36%;margin-top: 28%;">
+		<a href="#" class="flip-it">Flip Page</a>
+		<a href="#" class="unflip-it">Un-Flip Page</a>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".flip-it").click(function(){
+		$("body").flippo();
+		return false;
+	});
+	$(".unflip-it").click(function(){
+		$("body").unFlippo();
+		return false;
+	});
+});
+</script>

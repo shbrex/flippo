@@ -1,0 +1,17 @@
+.flippo {
+  -moz-transform:scale(1,1);
+  -webkit-transform:scale(1,1);
+  transform:scale(1,1);
+  -webkit-transition:all 600ms ease;
+  -webkit-transition:all 600ms ease;
+  transition:all 600ms ease;
+ }
+
+.flippoed{
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  -ms-filter: fliph; /*IE*/
+  filter: fliph; /*IE*/
+}
